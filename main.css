@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/background_mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(76, 167, 114, 1);
+    height: 35px;
+    color: rgba(255, 255, 255, 1);
+}
+nav a{
+    margin-left:-70px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+nav span:hover{
+    color: rgba(255, 180, 37, 1);
+    }
+nav p{
+    font-size: 1.3em;
+    font-weight: 500;
+    margin-left: 70px;
+}
+
+main{
+    background-color: rgba(235, 251, 242, 0.43);
+    width: 90vw;
+    height: 75vh;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+
+.tutor{
+    display: flex;
+    justify-content: space-between;
+    padding:0.3em 1.3em;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    margin: 3px 0;
+}
+
+.left_row{
+  
+    display:flex ;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 40vw;
+     
+}
+
+.name_qualification{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(126, 126, 126, 1);
+}
+
+.qualification{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(126, 126, 126, 1);
+}
+
+.right_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+.subject{
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgba(76, 167, 114, 1);
+    padding: 0.1em 0.5em;
+    border: 0;
+    border-radius: 5px;
+}
+
+.price{
+    color: rgba(255, 180, 37, 1);
+    font-size: 13px;
+    font-weight: 700;
+    background-color: transparent;
+    border: 1px solid rgba(255, 180, 37, 1) ;
+    padding:0.1em 0.7em;
+    border-radius: 5px;
+}
+
+#next_button{
+    font-size:1.2em ;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(76, 167, 114, 1);
+    padding: 0.4em 7em;
+    margin-bottom: 1em;
+    border: 0;
+    border-radius: 5px;
+}
+
+#next_button:hover{
+    color: rgba(255, 180, 37, 1);
+}
+
+
+
+/*Responsive mode*/
+
+
+/*Responsive mode*/
+
+
+/*Responsive mode*/
+
+
+/*Mobile Screen*/
+
+
+/*Min width 700px*/
+
+
+/*Min width 700px*/
+
+
+/*Min width 700px*/
+
+@media only screen and (min-width: 800px) {
+
+    body{
+        background: url(img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    }
+    main{
+        width: 70vw;
+        height: 80vh;
+    }
+    
+    
+    
+    .tutor{
+        padding:0.5em 3em;
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    nav a{
+    margin-left:-300px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    }
+    nav span:hover{
+        color: rgba(255, 180, 37, 1);
+        }
+    nav p{
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-left: 250px;
+    }
+    #next_button{
+        font-size:1.3em ;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(76, 167, 114, 1);
+        padding: 0.4em 10em;
+        margin-bottom: 0.3em;
+        
+    }
+    .left_row{
+        width: 25vw;
+         
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    body{
+        background: url(img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    }
+    nav{
+        height: 40px;
+        color: rgba(255, 255, 255, 1);
+    }
+    nav a{
+        font-size:  2em;
+        margin-left:-400px;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 1);
+    }
+    nav span:hover{
+        color: rgba(255, 180, 37, 1);
+        }
+    nav p{
+        font-size: 1.7em;
+        font-weight: 700;
+        margin-left: 400px;
+    }
+
+    main{
+        width: 70vw;
+        height: 80vh;
+    }
+    
+    
+    
+    .tutor{
+        padding:0.5em 3em;
+        width: 90%;
+        margin: 10px 0;
+    }
+    
+    .left_row{
+        display:flex ;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 40vw;
+         margin-left: -9em;
+    }
+    
+    .name_qualification{
+        display:flex ;
+        align-items: center;
+        justify-content: space-evenly;
+         margin-left: -8em;
+    }
+    
+    .name{
+        font-size: 20px;
+    }
+    
+    .qualification{
+        font-size: 15px;
+        display:flex ;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .right_row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    
+    
+    .subject{
+        font-size: 15px;
+        font-weight: 700;
+        padding: 0.1em 1em;
+       
+    }
+    
+    .price{
+        font-size: 13px;
+        font-weight: 600;
+        background-color: transparent;
+    }
+    
+    #next_button{
+        font-size:1.7em ;
+        font-weight: 700;
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(76, 167, 114, 1);
+        padding: 0.4em 10m;
+        
+    }
+}
+
+
+
+
